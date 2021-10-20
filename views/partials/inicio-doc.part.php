@@ -22,10 +22,3 @@
 </head>
 <body id="page-top">
 
-<!-- Navigation Bar -->
-
-       <?php
-
-include __DIR__ . "/nav.part.php";
-
-?> 

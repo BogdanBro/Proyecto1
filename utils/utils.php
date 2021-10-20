@@ -1,7 +1,11 @@
 <?php
     function esOpcionMenuActiva($option){
 
-        (strpos($_SERVER["REQUEST_URI"],'/'.$option)===0) ?  true : false;
+        if (strpos($_SERVER["REQUEST_URI"],'/'.$option)==0) {
+            return false ;
+        } else {
+            return true;
+        }
     
     }
 
@@ -9,8 +13,23 @@
 
        foreach ($options as $option){
 
-        esOpcionMenuActiva($option) ? true : false ;
+       if ( esOpcionMenuActiva($option)) {
+        return true;
+       }  else{
+        return  false;
+       }  
 
        }
+
+    }
+
+    function sanitizeInput(string $data):string {
+
+$data = trim($data);
+
+$data = stripslashes($data);
+
+$data = htmlspecialchars($data);
+return $data;
 
     }
