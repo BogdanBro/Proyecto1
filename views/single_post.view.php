@@ -1,13 +1,9 @@
 <?php
-
   include __DIR__ . "/partials/inicio-doc.part.php";
   include __DIR__ . "/partials/nav.part.php";
-
 ?>
-<!-- End of Navigation Bar -->
-
 <!-- Principal Content Start -->
-  <div id="single">
+   <div id="single">
      <div class="container">
 
     <!-- Full Article -->
@@ -54,7 +50,8 @@
       </div>
     <!-- End of Full Article -->
 
-    <div class="row">
+    <!-- Comments -->
+      <div class="row">
       <div class="col-xs-12 col-sm-12 block2">
         <div class="comment">
           <h4>Young Papou</h4>
@@ -124,10 +121,25 @@
    </div>
 <!-- End of Principal Content Start -->
 
+   <!-- Footer -->
+   <footer>
+     <div class="container text-muted text-center">
+         <ul class="list-inline social-buttons">
+            <li><a href="#"><i class="fa fa-facebook sr-icons"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-twitter sr-icons"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-google-plus sr-icons"></i></a>
+            </li>
+         </ul>
+         <ul class="list-inline">
+           <li class="footer-number"><i class="fa fa-phone sr-icons"></i>  (00228)92229954 </li>
+           <li><i class="fa fa-envelope sr-icons"></i>  kouvenceslas93@gmail.com</li>
+         </ul>
+         <p>Photography Fanatic Template &copy; 2017</p>
+     </div>
+   </footer>
 
-    <!-- Comments -->
-    <?php
-
-include __DIR__ . "/partials/fin-doc.part.php";
-
-?> 
+<?php
+  include __DIR__ . "/partials/fin-doc.part.php";
+?>

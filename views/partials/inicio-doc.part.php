@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>  
+
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,8 @@
   	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
   	<!-- Bootstrap core css -->
   	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<!-- Magnific-popup css -->
+  	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
   	<!-- Font Awesome icons -->
   	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 
@@ -21,4 +24,3 @@
     <![endif]-->
 </head>
 <body id="page-top">
-
